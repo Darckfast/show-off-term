@@ -16,4 +16,4 @@ This image can be included in a Markdown file by inserting the following line
 The API is being served of the Vercel serverless platform, but it can be used on any
 other service
 
-[![github-logo](public/github-mark-white.svg)](https://github.com/Darckfast/show-off-term)
+[![github-logo](/github-mark-white.svg)](https://github.com/Darckfast/show-off-term)
