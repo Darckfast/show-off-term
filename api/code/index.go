@@ -23,7 +23,9 @@ func Handler(writer http.ResponseWriter, request *http.Request) {
 	}
 
 	htmlTemplate, _ := template.New("show-off-term").Parse(templates.Html)
- 
-	writer.Header().Set("Content-Type","image/svg+xml")
+
+	writer.Header().Set("Content-Type", "image/svg+xml")
+	writer.Header().Set("Access-Control-Allow-Origin", "*")
+
 	htmlTemplate.Execute(writer, &codeTemplate)
 }
