@@ -1,1 +1,1 @@
-![term](https://show-off-term-bg7jseihc-darckfast.vercel.app/api/code)
+![term](https://show-off-term.vercel.app/api/code)
