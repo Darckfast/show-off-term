@@ -10,6 +10,9 @@ var Html = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.o
                     --tw-content: '';
                 }
 
+                .main {
+                    font-family: Roboto, sans-serif;
+                }
                 .absolute {
                     position: absolute;
                 }
@@ -180,7 +183,7 @@ var Html = `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.o
                 }
             </style>
             <div
-                class="border border-slate-600 h-auto w-full flex text-white bg-slate-900 relative rounded-md p-4 pt-10">
+                class="main border border-slate-600 h-auto w-full flex text-white bg-slate-900 relative rounded-md p-4 pt-10">
                 <div style="width: 100%"
                     class="p-1 rounded-b-none flex justify-center bg-slate-800 absolute top-0 left-0 rounded-md">
                     $ {{.Lang}}
